@@ -1,27 +1,3 @@
-# from app import app, db
-# from models import Hero
-
-# allheros = [
-#     {"name": "Kamala Khan", "super_name": "Ms. Marvel"},
-#     {"name": "Doreen Green", "super_name": "Squirrel Girl"},
-#     {"name": "Gwen Stacy", "super_name": "Spider-Gwen"},
-#     {"name": "Janet Van Dyne", "super_name": "The Wasp"},
-#     {"name": "Wanda Maximoff", "super_name": "Scarlet Witch"},
-#     {"name": "Carol Danvers", "super_name": "Captain Marvel"},
-#     {"name": "Jean Grey", "super_name": "Dark Phoenix"},
-#     {"name": "Ororo Munroe", "super_name": "Storm"},
-#     {"name": "Kitty Pryde", "super_name": "Shadowcat"},
-#     {"name": "Elektra Natchios", "super_name": "Elektra"}
-# ]
-
-# def seed_heros():
-#     with app.app_context():
-#         for hero_info in allheros:
-#             new_hero = Hero(name=hero_info["name"], super_name=hero_info["super_name"])
-#             db.session.add(new_hero)
-#         db.session.commit()
-
-# seed_heros()
 import sys
 import os
 from flask_sqlalchemy import SQLAlchemy

@@ -18,7 +18,7 @@ db.init_app(app)
 
 @app.route('/')
 def home():
-    return 'Welcome to the superheroes API'
+    return '🦸🏽‍♂️ Superheroes 🦸'
 
 class Heroes(Resource):
     def get(self):
